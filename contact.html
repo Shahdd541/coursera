@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="contact.html" class="active">Contact Us</a>
+    </nav>
+
+    <main>
+        <h1>Contact Us</h1>
+        <p>Have questions? Drop us a message below!</p>
+
+        <!-- Contact Us page email form (1 point) -->
+        <form class="contact-form" action="#" method="POST">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">Email Address:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="5" required></textarea><br><br>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </main>
+
+</body>
+</html>
